@@ -18,7 +18,7 @@ environment {
             
             steps {
                 sh 'ls -la'
-                sh 'docker build -t firozshaikh/php:v${BUILD_NUMBER} -f Docker1/first-cicd-jenkins-docker-route53/Dockerfile .'
+                sh 'docker build -t firozshaikh/php:v${BUILD_NUMBER} -f mak-mat-Docker1/first-cicd-jenkins-docker-route53/Dockerfile .'
             }
         }
 
